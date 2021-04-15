@@ -1,0 +1,23 @@
+logout page: 
+    ☐ logout page @critical
+    ☐ read cookie and back to destination page
+
+error 404 page:
+    ✔ design page @done (3/29/2021, 12:20:55 AM)
+    ✔ configure setting to display ther page @done (3/29/2021, 12:20:53 AM)
+
+general error page:
+    ✔ design page @done (3/29/2021, 12:20:40 AM)
+    ✔ configure setting to display change @done (3/29/2021, 12:20:43 AM)
+
+cart:
+    ☐ design cart
+    ☐ configure db design
+    ☐ code
+
+User:
+    ☐ trip data visible
+    ☐ configure db design
+
+dynamic destination loading:
+    ✔ collections in atlas @high @done (3/28/2021, 1:11:12 PM)

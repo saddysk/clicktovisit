@@ -1,0 +1,57 @@
+<!doctype html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            clicktovisit.in
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="icon" href="{% static 'img/logo.jpg' %}">
+        <!-- <link rel="stylesheet" href = "{% static 'css/index.css' %}"> -->
+
+        <style>
+            body{
+                background-image: url("{% static 'img/landing.jpg' %}");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" style="height: 12vh;"></div>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "text-white fs-1" style="text-align: center !important;">E&nbspN&nbspJ&nbspO&nbspY</div>
+            </div>
+
+            <div class = "row">
+                <div class = "fs-1" style="background-color: white; color: #162248 !important; text-align: center !important;">N&nbspA&nbspT&nbspU&nbspR&nbspE</div>
+            </div>
+
+            <div class = "row justify-content-center mt-3 mb-5">
+                <div class = "col-lg-6 col-sm-12 col-md-12 text-white fs-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                </div>
+            </div>
+            
+            <center>
+                <button type="button" class="btn btn-lg" style="background-color: white; color: #162248 !important;" onClick="location.href = '/home';">Interested</button>
+            </center>
+
+        </div>
+    </body>
+    <script>
+        window.onload = function(){
+            console.log('index page');
+            setTimeout(() => {
+                window.location = 'home';
+            }, 5000);
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>

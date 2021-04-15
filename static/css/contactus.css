@@ -1,0 +1,45 @@
+* {
+    font-family: "Poppins", sans-serif !important;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  input,
+  textarea {
+    height: 2.8rem;
+    width: 23rem !important;
+    font-size: 0.87em !important;
+    box-shadow: 3px 4px 5px -2px #0000002e;
+  }
+  @media (max-width: 450px) {
+    input,
+    textarea {
+      width: 100% !important;
+    }
+    h1 {
+      font-size: 2.5rem !important;
+    }
+    button {
+      width: 100% !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    #left-container {
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    #right-container {
+      flex-direction: column !important;
+      margin-left: auto;
+      align-items: center;
+    }
+    #direct {
+      margin: auto;
+      width: auto;
+    }
+  }
+  #phLabel {
+    font-size: 12px;
+    color: rgba(176, 190, 201, 0.959);
+  }

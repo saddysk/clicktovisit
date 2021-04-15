@@ -1,0 +1,85 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.button_hover_color_outer:hover .button_hover_color
+{
+    color: white !important;
+}
+
+.button_hover_color
+{
+    color: #525355 !important;
+}
+
+.button_hover_color_outer:hover 
+{
+    background-color: #22f1f7;
+}
+
+.unrated{
+    color: #757575;
+    cursor: pointer;
+}
+
+.rated{
+    color: #ffab00;
+    cursor: pointer;
+}
+
+.hover_fun:hover
+{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1) !important;
+
+    -webkit-transition: transform 1s ease-in-out;
+    -moz-transition:transform 1s ease-in-out;
+    -ms-transition:transform 1s ease-in-out;
+}
+
+.footer
+{
+    background: #141414;
+    color:white;
+}
+
+.links ul
+{
+    list-style-type: none;
+}
+
+.links li a
+{
+    color: white;
+    transition: color .2s;
+    text-decoration:none;
+}
+
+.links li a:hover
+{
+    text-decoration:none;
+    color:#4180CB;      
+}  
+
+.about-company i
+{
+    font-size: 25px;
+}
+
+.about-company a
+{
+    color:white;
+    transition: color .2s;
+}
+.about-company a:hover
+{
+    color:#4180CB
+}
+
+.about-company .location i{font-size: 18px;}
+
+.copyright p{border-top:1px solid rgba(255,255,255,.1);} 
